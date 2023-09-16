@@ -31,7 +31,7 @@ searchBtn.addEventListener('click', async() => {
                 movieCard.classList.add('movie-card');
                 if(movie.Poster ==='N/A'){ 
                     movieCard.innerHTML = `
-                <img src="./images/ErrorImages.png "alt ="${movieTitle}" class = "movie-poster">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.AC9frN1qFnn-I2JCycN8fwHaEK&pid=Api&P=0&h=180"alt ="${movieTitle}" class = "movie-poster">
                 <div class="movie-number">
                 <p >${(number=number+1)}</p>
                 </div>
