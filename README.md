@@ -34,4 +34,4 @@ For obtaining an API key, visit [OMDB API](https://www.omdbapi.com/apikey.aspx) 
 Use the "Response" and "Error" keys in the API's returned JSON to manage errors effectively.
 To craft the spinning loader, CSS keyframes will be instrumental. Research on "CSS Spinners" for inspiration.
 
-Here is MY  key: 28060c46
+HERE IS MY API_KEY: #28060c46
