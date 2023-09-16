@@ -20,7 +20,7 @@ searchBtn.addEventListener('click', async() => {
     resultsContainer.innerHTML='';
 // http://www.omdbapi.com/?i=tt3896198&apikey=28060c46
     try {
-        const response = await fetch(`http://www.omdbapi.com/?s=${movieTitle}&apikey=${apiKey}`);
+        const response = await fetch(`https://www.omdbapi.com/?s=${movieTitle}&apikey=${apiKey}`);
         const data = await response.json();
         console.log(data);
         if (data.Response === 'True') {
