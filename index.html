@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDBI API</title>
+    <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.uSc7mJbqIUpehPP7i_sjvwAAAA&pid=Api&P=0&h=180">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>IMDB MOVIE APP</h1>
+    </header>
+    
+    <div class="main-container">
+
+        <div class="search-items">
+            <input type="text" id="apiKeyInput" placeholder="API_Key">
+            <span><img src="./image/key.png" alt="link-icon"></span>
+        </div>
+
+        <div class="search-items">
+            <input type="text" id="movieTitleInput" placeholder="Enter Movie Title">
+            <!-- <span><img src="./image/Search.png" alt="search-icon"></span> -->
+        </div>
+        <div class="btn">
+        <button id="search-btn">Search
+        <span><img src="./image/Search.png" alt="search-icon"></span>
+    </button>
+    </div>
+        <div id="loader" class="loader"></div>
+        <div id="results" class="results-container"></div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
